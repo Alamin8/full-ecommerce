@@ -40,9 +40,6 @@ const connectDB = async () => {
   }
 };
 
-app.get("/", (req, res) => {
-  res.json({ msg: "Welcome to my ecommerce website : Alamin" });
-});
 
 connectDB();
 
